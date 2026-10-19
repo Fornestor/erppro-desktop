@@ -20,9 +20,11 @@ Masuk menggunakan akun ERP Anda. Hak akses dan ketersediaan fitur mengikuti pera
 - **Pelanggan dan diskon** — kelola data pelanggan dan promosi toko.
 - **Laporan dan analitik** — pantau aktivitas dan kinerja operasional.
 - **Akuntansi** — hubungkan aktivitas usaha dengan pencatatan keuangan.
-- **Marketplace** — kelola katalog dan pesanan toko yang memenuhi persyaratan akses.
+- **Marketplace** — kelola katalog dan pesanan toko yang memenuhi persyaratan akses dan wilayah layanan.
 - **Akses berbasis peran** — fitur tersedia sesuai kewenangan pengguna dalam tenant.
 - **Asisten AI dan Deep Audit** — bantu menganalisis kondisi operasional toko.
+- **Pengelolaan wilayah Marketplace** — Super Admin dapat mengatur wilayah layanan dan meninjau rekomendasi wilayah berdasarkan toko tenant. Rekomendasi perlu ditinjau dan diterapkan secara manual.
+- **Pengumuman global** — Super Admin dapat menjeda, melanjutkan, atau menghapus pengumuman.
 
 ## Deep Audit AI
 
@@ -31,6 +33,10 @@ Deep Audit AI menganalisis snapshot persediaan terkini serta data transaksi, ano
 Hasil audit yang tersimpan di server dapat dibuka dari perangkat lain pada tenant yang sama. Arsip menampilkan ringkasan laporan; laporan lengkap dibuka saat diperlukan dan dapat dicetak atau disimpan sebagai PDF. Arsip menyimpan maksimal 50 laporan per tenant, dengan laporan terlama dihapus otomatis saat batas tercapai.
 
 Deep Audit AI hanya tersedia jika akun memenuhi persyaratan paket dan saldo token yang berlaku. Proses audit menggunakan layanan AI online dan membutuhkan koneksi internet.
+
+## Ketersediaan Marketplace
+
+Marketplace tersedia sesuai wilayah layanan yang ditetapkan. Jika alamat belum tersedia atau wilayah pengguna belum terlayani, katalog toko dan produk tidak dimuat sampai layanan tersedia di wilayah tersebut.
 
 ## Instalasi Windows
 
@@ -41,17 +47,16 @@ Deep Audit AI hanya tersedia jika akun memenuhi persyaratan paket dan saldo toke
 
 Aplikasi desktop memerlukan koneksi internet untuk mengakses layanan ERP.
 
-> **Catatan keamanan Windows:** Installer versi 5.0.8 belum ditandatangani dengan sertifikat digital penerbit. Windows dapat menampilkan peringatan SmartScreen atau penerbit tidak dikenal. Unduh installer hanya dari halaman GitHub resmi ini. Jika checksum SHA-256 disediakan pada release, cocokkan checksum sebelum menjalankan file.
+> **Catatan keamanan Windows:** Installer versi 6.0.0 belum ditandatangani dengan sertifikat digital penerbit. Windows dapat menampilkan peringatan SmartScreen atau penerbit tidak dikenal. Unduh installer hanya dari halaman GitHub resmi ini. Cocokkan checksum SHA-256 yang disediakan pada release sebelum menjalankan file.
 
-## Pembaruan versi 5.0.8
+## Pembaruan versi 6.0.0
 
-- Arsip Deep Audit AI menampilkan laporan sebagai kartu ringkasan yang lebih mudah dipindai.
-- Kartu memuat waktu audit, periode data, dan ringkasan cakupan data.
-- Isi laporan lengkap dimuat saat pengguna membuka laporan, lalu dapat dicetak atau disimpan sebagai PDF.
-- Arsip tenant menyimpan hingga 50 laporan dan menghapus laporan terlama secara otomatis.
-- Laporan yang berhasil tersimpan di server dapat diakses lintas perangkat dalam tenant yang sama.
+- Menambahkan area khusus **Wilayah Akses Marketplace** di Super Admin untuk mengelola wilayah layanan.
+- Menambahkan rekomendasi wilayah berdasarkan data toko tenant. Rekomendasi tidak mengubah kebijakan secara otomatis dan harus ditinjau serta diterapkan manual oleh Super Admin.
+- Marketplace tidak memuat katalog toko dan produk ketika alamat belum tersedia atau wilayah pengguna belum terlayani.
+- Menambahkan kontrol untuk menjeda, melanjutkan, dan menghapus pengumuman global.
 
-Lihat [Release 5.0.8](https://github.com/Fornestor/erppro-desktop/releases/tag/V.5.0.8) untuk informasi versi dan file installer.
+Lihat [Release 6.0.0](https://github.com/Fornestor/erppro-desktop/releases/tag/V.6.0.0) untuk informasi versi dan file installer.
 
 ## Bantuan
 
