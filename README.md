@@ -53,7 +53,6 @@ Aplikasi desktop memerlukan koneksi internet untuk mengakses layanan ERP.
 
 - Menyempurnakan alur Kasir: setelah transaksi selesai, ringkasan transaksi dan tombol cetak atau kirim struk tersedia pada panel pembayaran.
 - Memudahkan kasir melanjutkan transaksi baru. Jika barang dipilih ketika ringkasan transaksi masih tampil, panel otomatis kembali ke tampilan total tagihan dan pembayaran.
-- Menampilkan rekomendasi produk saat keranjang masih kosong pada layar desktop. Produk dapat dipilih langsung dan rekomendasi mempertimbangkan promo, penjualan, pembaruan produk, serta margin.
 - Menyediakan pemeriksaan kesiapan sebelum periode akuntansi ditutup, dengan validasi di antarmuka dan backend.
 
 Lihat [Release 6.0.1](https://github.com/Fornestor/erppro-desktop/releases/tag/V.6.0.1) untuk informasi lengkap, installer Windows, dan checksum.
