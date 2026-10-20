@@ -47,16 +47,16 @@ Marketplace tersedia sesuai wilayah layanan yang ditetapkan. Jika alamat belum t
 
 Aplikasi desktop memerlukan koneksi internet untuk mengakses layanan ERP.
 
-> **Catatan keamanan Windows:** Installer versi 6.0.0 belum ditandatangani dengan sertifikat digital penerbit. Windows dapat menampilkan peringatan SmartScreen atau penerbit tidak dikenal. Unduh installer hanya dari halaman GitHub resmi ini. Cocokkan checksum SHA-256 yang disediakan pada release sebelum menjalankan file.
+> **Catatan keamanan Windows:** Installer versi 6.0.1 belum ditandatangani dengan sertifikat digital penerbit. Windows dapat menampilkan peringatan SmartScreen atau penerbit tidak dikenal. Unduh installer hanya dari halaman GitHub resmi ini. Cocokkan checksum SHA-256 yang disediakan pada release sebelum menjalankan file.
 
-## Pembaruan versi 6.0.0
+## Pembaruan versi 6.0.1
 
-- Menambahkan area khusus **Wilayah Akses Marketplace** di Super Admin untuk mengelola wilayah layanan.
-- Menambahkan rekomendasi wilayah berdasarkan data toko tenant. Rekomendasi tidak mengubah kebijakan secara otomatis dan harus ditinjau serta diterapkan manual oleh Super Admin.
-- Marketplace tidak memuat katalog toko dan produk ketika alamat belum tersedia atau wilayah pengguna belum terlayani.
-- Menambahkan kontrol untuk menjeda, melanjutkan, dan menghapus pengumuman global.
+- Menyempurnakan alur Kasir: setelah transaksi selesai, ringkasan transaksi dan tombol cetak atau kirim struk tersedia pada panel pembayaran.
+- Memudahkan kasir melanjutkan transaksi baru. Jika barang dipilih ketika ringkasan transaksi masih tampil, panel otomatis kembali ke tampilan total tagihan dan pembayaran.
+- Menampilkan rekomendasi produk saat keranjang masih kosong pada layar desktop. Produk dapat dipilih langsung dan rekomendasi mempertimbangkan promo, penjualan, pembaruan produk, serta margin.
+- Menyediakan pemeriksaan kesiapan sebelum periode akuntansi ditutup, dengan validasi di antarmuka dan backend.
 
-Lihat [Release 6.0.0](https://github.com/Fornestor/erppro-desktop/releases/tag/V.6.0.0) untuk informasi versi dan file installer.
+Lihat [Release 6.0.1](https://github.com/Fornestor/erppro-desktop/releases/tag/V.6.0.1) untuk informasi lengkap, installer Windows, dan checksum.
 
 ## Bantuan
 
