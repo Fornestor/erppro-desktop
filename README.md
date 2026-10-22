@@ -49,27 +49,6 @@ Aplikasi desktop memerlukan koneksi internet untuk mengakses layanan ERP.
 
 > **Catatan keamanan Windows:** Installer versi 6.0.1 belum ditandatangani dengan sertifikat digital penerbit. Windows dapat menampilkan peringatan SmartScreen atau penerbit tidak dikenal. Unduh installer hanya dari halaman GitHub resmi ini. Cocokkan checksum SHA-256 yang disediakan pada release sebelum menjalankan file.
 
-## Pembaruan versi 6.0.1
-
-### Kasir dan transaksi
-
-- Tampilan daftar keranjang di perangkat mobile diringkas agar informasi barang dan nominal lebih mudah dibaca, dengan tetap membedakan mode daftar dan mode kartu.
-- Aksi **Tagih via WhatsApp**, **Catat sebagai kasbon**, dan **Batal transaksi** dirapikan dalam menu **Aksi transaksi**. Tombol pembayaran utama tetap terlihat dan pembatalan tetap meminta konfirmasi.
-- Setelah transaksi berhasil, ringkasan transaksi dan pilihan untuk mencetak struk, mengirim struk secara digital, atau kembali ke kasir tersedia pada panel pembayaran.
-- Jika barang baru dipilih saat ringkasan transaksi masih tampil, panel kembali ke tampilan transaksi aktif.
-- Kartu rekomendasi barang dihapus dari area keranjang kosong. Area tersebut kembali menampilkan petunjuk untuk memindai barcode atau mencari barang.
-- Notifikasi sementara kasir, termasuk notifikasi setelah transaksi, dipindahkan ke bagian atas layar. Posisi dan jaraknya menyesuaikan desktop maupun perangkat mobile.
-
-### Akuntansi dan penutupan periode
-
-- Pemeriksaan kesiapan penutupan periode tersedia dari halaman Periode agar prasyarat dapat diketahui sebelum penutupan dilanjutkan.
-- Pemeriksaan kesiapan di antarmuka dan backend diselaraskan, termasuk pemeriksaan jurnal draft, jurnal closing saldo laba, validitas jurnal posted, dan snapshot transaksi.
-- Snapshot berstatus **Perlu diperiksa** dapat memenuhi prasyarat penutupan jika seluruh hasil review sudah cocok dengan jurnal posted. Review yang belum terselesaikan tetap menghalangi penutupan.
-- Status persetujuan atau ekspor laporan tidak lagi menjadi prasyarat penutupan periode; pemeriksaan transaksi dan jurnal lainnya tetap berlaku.
-- Penanganan sesi Akuntansi dan percobaan ulang tutup atau buka kembali periode diperkuat untuk mengurangi konflik sesi dan kendala permintaan yang gagal.
-
-Lihat [Release 6.0.1](https://github.com/Fornestor/erppro-desktop/releases/tag/V.6.0.1) untuk informasi lengkap, installer Windows, dan checksum.
-
 ## Bantuan
 
 Untuk bantuan penggunaan atau informasi paket, hubungi [Admin ERP melalui WhatsApp](https://wa.me/628996884600).
